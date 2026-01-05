@@ -1,11 +1,1 @@
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/criollos",
-  "framework": "angular",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+{"version": 2, "builds": [{"src": "dist/criollos", "use": "@vercel/static"}], "rewrites": [{"source": "/(.*)", "destination": "/index.html"}]}
